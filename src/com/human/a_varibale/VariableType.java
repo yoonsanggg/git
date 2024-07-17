@@ -1,6 +1,8 @@
 package com.human.a_varibale;
 
 public class VariableType {
+    private static final char A = 0;
+
     public void type1(){
         // byte의 범위 -128 ~127
         // 메모리 공간에서 1byte 는 8bit 
@@ -16,7 +18,7 @@ public class VariableType {
         byte var2 = 127;
         
         // short의 범위 약 -32,768~ 32,767(대부분 양수 측에 0이 포함되기 때문에 하나 작음)
-        short var = -32768;
+        // short var = -32768;
         
 
 
@@ -24,7 +26,7 @@ public class VariableType {
         // 리터럴 특,,,징)
         /*
          * 정수 인 경우 int 타입을 가짐 (지정 안해도) 
-         * ex) byte var3 = 128; 여기선 128이 int로  
+         * ex) byte var3 = 128; 여기선 128이 int로
          * 
          */
          System.out.println(var1);
@@ -35,16 +37,16 @@ public class VariableType {
         }
         public void type2(){
             
-            byte var1 = 10;
-            byte var2 = 20;
+            // byte var1 = 10;
+            // byte var2 = 20;
 
-            int i = 10;
-            //2진수 0b로 시작
-            int ii = 0b1011;
+            // int i = 10;
+            // 2진수 0b로 시작
+            // int ii = 0b1011;
             // 8진수 0으로 시작
-            int iii = 013;
+            // int iii = 013;
             // 16진수 0x로 시작
-            int iiii = 0xB3;
+            // int iiii = 0xB3;
             
             // 우린 사람이라 10진수 쓰는데 저거를 남겨놓은 이유는? 어따씀? 보안 강화?
             // 저거 다 10진수로 출력 되는데 레터럴 넣으면 각각 2진수 8진수 16진수로 출력가능
@@ -55,10 +57,10 @@ public class VariableType {
 
             // byte 타입의 연산 -> int 타입으로 형변환 이루어져 int 타입을 반환 
             // @@@정수형 타입은 그냥 int로 쓰는게 낫다 왜냐면 계속  --> 그냥 int 써라
-            byte var4 = (byte)(var1 + var2);
+            // byte var4 = (byte)(var1 + var2);
             // 이렇게 쓸 수 없잖슴;;@@@
 
-            int var3 = var1 + var2;
+            // int var3 = var1 + var2;
         }
         public void type3(){
             /* 캐릭터 키워드
@@ -91,7 +93,7 @@ public class VariableType {
             
             String str = "\" 문자열 \""; // 엔터 위 \ 쓰면 본연의 역할에서 벗어나서 그냥 출력 가능
 
-            String stra = "문자열";
+//            String stra = "문자열";
             System.out.println(str);
         }
 
@@ -129,7 +131,7 @@ public class VariableType {
             // 쉽게 말해서 참과 거짓
             // true , false
 
-            boolean res = true;
+  //          boolean res = true;
             // if()안의 문장이 참이라면
             //  실행 ㄱㄱ혓
             if(true) {
@@ -142,10 +144,11 @@ public class VariableType {
                 
             }
             if (false) {
-                System.out.println("false");
-                }
+//                System.out.println("false");
+//                }
 
         }
 
         
+}
 }
