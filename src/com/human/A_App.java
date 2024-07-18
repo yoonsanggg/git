@@ -1,11 +1,12 @@
 package com.human;
 
-import com.human.a_varibale.VariableType;
+import com.human.a_varibale.InputOutput;
 
 public class A_App {
     public static void main(String[] args) {
-        VariableType g = new VariableType();
-        g.type4();
+        
+        InputOutput io = new InputOutput(); 
+        io.print();
     }
 
 }
