@@ -1,7 +1,7 @@
 package com.human;
 
-import com.human.a_varibale.Variable;
-import com.human.a_varibale.VariableType;
+import a_varibale.Variable;
+import a_varibale.VariableType;
 
 public class A_variableApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.human.a_varibale;
+package a_varibale;
 
 import java.io.IOException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.human.a_varibale;
+package a_varibale;
 
 public class VariableType {
     private static final char A = 0;

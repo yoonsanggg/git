@@ -1,6 +1,6 @@
 package com.human;
 
-import com.human.a_varibale.PointTest;
+import a_varibale.PointTest;
 
 public class PointApp {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.human;
 
-import com.human.a_varibale.InputOutput;
+import a_varibale.InputOutput;
 
 public class A_App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.human.a_varibale;
+package a_varibale;
 
 public class Variable {
     
