@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) {
         Example play = new Example();
         // play.mathod();
-        play.method3();
+        play.printGender();
         
     }
 

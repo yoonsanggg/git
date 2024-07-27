@@ -6,7 +6,7 @@ public class App_240719 {
     public static void main(String[] args) {
         
         A_IfExample240719 ie = new A_IfExample240719();
-        ie.method();
+        ie.printGender();
 
         //메서드를 호출 할 땐 매개변수의 값만 출력
         //매개변수 타입은 메서드 선언부에 설계돼 있다

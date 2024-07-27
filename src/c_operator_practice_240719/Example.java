@@ -76,18 +76,19 @@ public class Example {
         // for (초기화; 조건식; 증감식;) {}
         // i는 1부터 10보다 작을 때 까지 실행
         // 코드블럭이 끝날 때 마다 i 값을 1씩 증가시킴
-        
+
         for (dan = 2; dan < 10; dan++) {
             System.out.printf("%d단\n", dan);
             for (int i = 1; i < 10; i++) { // () 안에서 선언해서 사용 가능
                 // 1~9까지 반복실행
                 System.out.printf("%d * %d=%d\n", dan, i, dan * i);
             }
-            if (dan==9) {
+            if (dan == 9) {
                 break;
             }
         }
 
     }
+
 
 }
