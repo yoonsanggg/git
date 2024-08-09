@@ -38,7 +38,7 @@ public class ArrayEx {
 
 
             for(int j =0; j< i; j++) {
-                if(lotto[j].equals(lotto[i])) {
+                if(lotto[j]==(lotto[i])) {
                     System.out.println("lotto[j] :" + lotto[j]);
                     System.out.println("===중복 발생===");
                     i--;
