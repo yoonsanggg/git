@@ -90,6 +90,14 @@ FROM dual;
 
 -- 사원테이블의 이메일 컬럼에서 이메일 아이디와 도메인 추출을 추출 해보세요
 
+select instr(email,'@')
+from emp;
+
+
+
+
+
+
 
 
 SELECT     SUBSTR (EMAIL, INSTR(EMAIL,'@')+1), SUBSTR(EMAIL,1,INSTR(EMAIL,'@')-1) 
