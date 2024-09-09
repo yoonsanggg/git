@@ -34,3 +34,5 @@ for dan in dan_range :
         print (f"{dan}*{i}={dan*i}")
 
 
+
+
