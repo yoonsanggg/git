@@ -1,26 +1,14 @@
-import random
+from datetime import datetime
 
-# 원하는 갯수만큼 중복되지 않은 값 추출
-# lotto = random.sample(range(1,47),6)
-# 정렬도
-# print(sorted(lotto))
+sysday = datetime.now()
 
-# 빈 리스트 만들고 무작위수 추출
+id_num = input("주민등록번호 : ").replace("-","").replace(" ","")
+if len(id_num) == 13 and id_num :
+    centry = {"1":1900,"2":1900,"3":2000,"4":2000}
+    birth_year = centry[id_num[6]] + int(id_num[:2])
+    birth_month = int(id_num[2:4])
+    birth_day = int(id_num[4:6])
 
-lotto=[]
-
-# while len(lotto) < 6:
-#     num = random.randint(1,47)
-#     if num not in lotto :
-#         lotto.insert(0,num)
-
-lotto = set()
-while len(lotto)<6 :
-    num = random.randint(1,47)
-    lotto.add(num)
-
-lotto_list = sorted(lotto)
-print(lotto)
-print(lotto_list)
-
-
+    age = sysday.year - birth_year - ((birth_month,birth_day)>(sysday.month,sysday.day))
+    gender = "남자" if id_num[6] in ["1","3"] else "여자"
+    print(f"나이 : {age} 성별:{gender}")
