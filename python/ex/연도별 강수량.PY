@@ -10,7 +10,7 @@ rc('font', family=font_name)
 # CSV 데이터 읽기
 data_by_year = defaultdict(list)
 
-with open('ex/연도별강수량.csv', 'r', encoding='utf-8') as file:
+with open('python\ex\연도별강수량.csv', 'r', encoding='utf-8') as file:
     csv_reader = csv.reader(file)
     header = next(csv_reader)  # 첫 번째 줄(헤더) 건너뛰기
 
